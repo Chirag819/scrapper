@@ -46,7 +46,7 @@ This project delivers a comprehensive **SaaS Review Scraper** that meets all the
 
 ### **Core Components**
 ```
-saas-review-scraper/
+scrapper/
 ├── main.py                 # Main entry point with CLI interface
 ├── config.py              # Configuration management
 ├── scrapers/              # Modular scraper implementations

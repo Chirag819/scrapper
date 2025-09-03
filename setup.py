@@ -17,14 +17,14 @@ def read_requirements():
         return [line.strip() for line in fh if line.strip() and not line.startswith("#")]
 
 setup(
-    name="saas-review-scraper",
+    name="scrapper",
     version="1.0.0",
     author="Your Name",
     author_email="your.email@domain.com",
     description="A powerful Python script to scrape product reviews from multiple SaaS review platforms",
     long_description=read_readme(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/saas-review-scraper",
+    url="https://github.com/Chirag819/scrapper",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -53,8 +53,8 @@ setup(
     zip_safe=False,
     keywords="web-scraping, reviews, saas, capterra, trustpilot, g2, selenium, beautifulsoup",
     project_urls={
-        "Bug Reports": "https://github.com/yourusername/saas-review-scraper/issues",
-        "Source": "https://github.com/yourusername/saas-review-scraper",
-        "Documentation": "https://github.com/yourusername/saas-review-scraper#readme",
+        "Bug Reports": "https://github.com/Chirag819/scrapper/issues",
+        "Source": "https://github.com/Chirag819/scrapper",
+        "Documentation": "https://github.com/Chirag819/scrapper#readme",
     },
 )

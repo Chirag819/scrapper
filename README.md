@@ -1,4 +1,4 @@
-# 🚀 SaaS Reviews Scraper
+# 🚀 Scrapper
 
 A Python application to scrape SaaS product reviews from **Capterra** and **Trustpilot** - two of the most comprehensive platforms for business software reviews.
 
@@ -32,8 +32,8 @@ A Python application to scrape SaaS product reviews from **Capterra** and **Trus
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
-cd saas-review-scraper
+git clone https://github.com/Chirag819/scrapper.git
+cd scrapper
 ```
 
 ### 2. Install Dependencies
@@ -83,7 +83,7 @@ python main.py --company "Zoom" --start-date "2024-01-01" --end-date "2025-12-31
 ## 📂 Project Structure
 
 ```
-saas-review-scraper/
+scrapper/
 ├── main.py                 # Main entry point
 ├── config.py              # Configuration settings
 ├── requirements.txt       # Python dependencies

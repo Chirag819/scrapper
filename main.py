@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Review Scraper Main Script
-Scrapes product reviews from G2, Capterra, and Trustpilot
+Scrapes product reviews from Capterra and Trustpilot
 """
 
 import argparse
@@ -119,7 +119,7 @@ class ReviewScraperManager:
 def main():
     """Main function to handle command line arguments and execute scraping"""
     parser = argparse.ArgumentParser(
-        description='Scrape product reviews from G2, Capterra, and Trustpilot',
+        description='Scrape product reviews from Capterra and Trustpilot',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
@@ -215,7 +215,7 @@ if __name__ == "__main__":
 # /usr/bin/env python3
 # """
 # Review Scraper Main Script
-# Scrapes product reviews from G2, Capterra, and Trustpilot
+# Scrapes product reviews from Capterra and Trustpilot
 # """
 
 # import argparse
@@ -233,7 +233,6 @@ if __name__ == "__main__":
 #     sys.path.insert(0, current_dir)
 
 # try:
-#     from scrapers.g2_scraper import G2Scraper
 #     from scrapers.capterra_scraper import CapterraScraper
 #     from scrapers.trustpilot_scraper import TrustpilotScraper
 #     from utils.validators import validate_date_range, validate_company_name, validate_source
@@ -253,7 +252,6 @@ if __name__ == "__main__":
 #     def __init__(self):
 #         self.logger = setup_logger()
 #         self.scrapers = {
-#             'g2': G2Scraper(),
 #             'capterra': CapterraScraper(),
 #             'trustpilot': TrustpilotScraper()
 #         }

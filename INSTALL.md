@@ -12,8 +12,8 @@
 #### Option A: Using pip (Recommended)
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd saas-review-scraper
+git clone https://github.com/Chirag819/scrapper.git
+cd scrapper
 
 # Install dependencies
 pip install -r requirements.txt
@@ -22,8 +22,8 @@ pip install -r requirements.txt
 #### Option B: Using setup.py
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd saas-review-scraper
+git clone https://github.com/Chirag819/scrapper.git
+cd scrapper
 
 # Install the package
 pip install -e .
@@ -32,8 +32,8 @@ pip install -e .
 #### Option C: Using virtual environment (Recommended for development)
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd saas-review-scraper
+git clone https://github.com/Chirag819/scrapper.git
+cd scrapper
 
 # Create virtual environment
 python -m venv venv
@@ -82,8 +82,8 @@ python main.py --company "Slack" --start-date "2024-01-01" --end-date "2025-12-3
 
 ### 1. Clone Repository
 ```bash
-git clone <repository-url>
-cd saas-review-scraper
+git clone https://github.com/Chirag819/scrapper.git
+cd scrapper
 ```
 
 ### 2. Create Virtual Environment
