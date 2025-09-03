@@ -131,6 +131,7 @@ dmypy.json
 # Project specific
 output/
 *.json
+!sample_output.json
 *.html
 *.log
 debug_*.py

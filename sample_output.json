@@ -1,0 +1,70 @@
+{
+  "company_name": "Slack",
+  "date_range": {
+    "start": "2024-01-01",
+    "end": "2025-12-31"
+  },
+  "scraping_timestamp": "2025-09-03T17:25:15.123456",
+  "sources": {
+    "capterra": {
+      "total_reviews": 3,
+      "reviews": [
+        {
+          "reviewer": "Vishal W.",
+          "title": "Essential Tool for Modern Team Communication",
+          "date": "2025-07-22",
+          "rating": "5.0",
+          "text": "My overall experience with Slack has been very positive. It has significantly improved our team communication and helped reduce email clutter. The platform is reliable, fast, and keeps everyone connected, especially while working remotely.",
+          "pros": "What I liked most about Slack is how it enhances team communication and collaboration. The user-friendly interface makes it easy to organize conversations into channels, keeping topics and departments separate and focused. Integration with other tools like Google Drive, Trello, and Zoom is seamless, allowing our team to access everything in one place.",
+          "cons": "One downside of Slack is that it can become overwhelming if not managed properly. With many channels and constant notifications, it's easy to get distracted or miss important messages in the noise. The search function is sometimes limited, making it hard to find old messages or shared files unless they're well-organized.",
+          "source": "Capterra"
+        },
+        {
+          "reviewer": "Gabriela S.",
+          "title": "A great tool for your company",
+          "date": "2025-04-25",
+          "rating": "5.0",
+          "text": "I think slack is brilliant for a company or organization. It helps with communication and keeps everyone connected. The channels feature is particularly useful for organizing different projects and departments.",
+          "pros": "Excellent communication tool, easy to use, great for team collaboration, helpful integrations with other business tools.",
+          "cons": "Can be expensive for larger teams, sometimes notifications can be overwhelming, requires good organization to avoid clutter.",
+          "source": "Capterra"
+        },
+        {
+          "reviewer": "Nandika N.",
+          "title": "Potential for Improvements",
+          "date": "2025-07-23",
+          "rating": "3.0",
+          "text": "Good. Very slow, crashes a lot. Conversations and threads can be confusing to follow. The mobile app needs significant improvements.",
+          "pros": "Basic functionality works well, good for simple messaging, decent file sharing capabilities.",
+          "cons": "Performance issues, frequent crashes, confusing interface, poor mobile experience, limited customization options.",
+          "source": "Capterra"
+        }
+      ]
+    },
+    "trustpilot": {
+      "total_reviews": 2,
+      "reviews": [
+        {
+          "reviewer": "Sarah Johnson",
+          "title": "Excellent communication platform",
+          "date": "2024-08-15",
+          "rating": "5.0",
+          "text": "Slack has revolutionized how our team communicates. The ability to create different channels for different projects keeps everything organized. The integration with other tools we use daily is seamless.",
+          "pros": "Great organization, excellent integrations, reliable performance, user-friendly interface",
+          "cons": "Can be expensive for small teams, learning curve for new users",
+          "source": "Trustpilot"
+        },
+        {
+          "reviewer": "Mike Chen",
+          "title": "Good but has room for improvement",
+          "date": "2024-09-02",
+          "rating": "4.0",
+          "text": "Slack is a solid communication tool that has improved our team's productivity. However, the search functionality could be better and the mobile app sometimes has sync issues.",
+          "pros": "Reliable messaging, good channel organization, helpful notifications, decent file sharing",
+          "cons": "Search could be improved, mobile app sync issues, sometimes slow loading",
+          "source": "Trustpilot"
+        }
+      ]
+    }
+  }
+}
