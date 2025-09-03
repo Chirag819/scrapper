@@ -20,7 +20,7 @@ A Python application to scrape SaaS product reviews from **Capterra** and **Trus
 |----------|--------|----------|--------------|
 | **Capterra** | ✅ **Working** | Full review extraction with pros/cons | High (detailed business reviews) |
 | **Trustpilot** | ✅ **Working** | Complete review data with ratings | High (verified reviewers) |
-| **G2** | 🚧 **In Development** | Basic structure implemented | TBD |
+
 
 ## 📋 Requirements
 
@@ -241,7 +241,7 @@ python demo.py --sample
 ### ✅ Core Requirements
 - ✅ **Company Name Input**: Command-line argument `--company`
 - ✅ **Date Range Input**: `--start-date` and `--end-date` parameters
-- ✅ **Source Selection**: `--source` with options for Capterra, Trustpilot, and G2
+- ✅ **Source Selection**: `--source` with options for Capterra and Trustpilot
 - ✅ **JSON Output**: Structured JSON with all required fields
 - ✅ **Review Data Fields**: `title`, `description`, `date`, `reviewer`, `rating`
 - ✅ **Pagination Support**: Automatic handling of multiple pages
@@ -260,8 +260,7 @@ Company: Slack
 Date Range: 2024-01-01 to 2025-12-31
 Total Reviews Found: 59
 ├── Capterra: 19 reviews
-├── Trustpilot: 40 reviews
-└── G2: 0 reviews (in development)
+└── Trustpilot: 40 reviews
 ```
 
 ## 🆘 Support
